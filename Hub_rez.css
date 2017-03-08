@@ -1,0 +1,13 @@
+@-moz-document domain('github.com') {
+
+HTML > BODY {min-width:320px;}
+
+DIV.container {width:auto; max-width:980px;}
+
+UL.user-nav {margin-right:0px;}
+
+DIV.file-wrap > TABLE.files TD.message .css-truncate {white-space:normal;}
+
+DIV.file-actions {padding-left:84px;}
+
+}
