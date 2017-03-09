@@ -13,9 +13,13 @@ Two use cases:
 
    1.1 Trouble is, that the Stylish extension in Firefox for Android is unable to tell, if a .css file hosted on GitHub is a newer version. At some point, I manually revisited a .css file via GitHub in Firefox for Android to locally update a particular userstyle, until I learned to copy-paste the file location from the Stylish extension.
    
-   1.2 But no matter - because first-time manual userstyle addition through an adaptable GitHub UI should still be facilitated, and this is what these userstyles provide.
+   1.2 But no matter - because first-time manual userstyle addition through an adaptable GitHub web design should still be facilitated, and this is what these userstyles provide.
+   
+   1.3 The design, therefore, allows general access to all other files (per appropriate permissions set by project owners), including editing and saving commits.
    
 2. Accessing GitHub and editing source code in a narrower window (to have another window side-by-side, but also actually accommodating smaller screen resolutions).
+
+I have not gone over all site design details, save the ones that I found useful. GitHub site design and its corresponding CSS is generally clean, and gets points for being unobdure.
 
 I have not decided on a license yet.
 
