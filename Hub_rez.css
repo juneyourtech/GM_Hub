@@ -8,7 +8,7 @@ DIV.container {width:auto; max-width:980px;}
 
 UL.user-nav {margin-right:0px;}
 
-DIV.file-wrap > TABLE.files TD.message .css-truncate {white-space:normal;}
+DIV.file-wrap > TABLE.files TD.message .css-truncate, DIV.file-wrap > TABLE.files TD.age .css-truncate {white-space:normal;}
 
 DIV.file-actions {padding-left:84px;}
 
