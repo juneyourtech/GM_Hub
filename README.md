@@ -19,7 +19,7 @@ Two use cases:
    
 2. Accessing GitHub and editing source code in a narrower window (to have another window side-by-side, but also actually accommodating smaller screen resolutions).
 
-I have not gone over all site design details, save the ones that I found useful. GitHub site design and its corresponding CSS is generally clean, and gets points for being unobdure.
+I have not gone over all site design details, save the ones that I found useful. GitHub site design and its corresponding CSS is generally clean, and gets points for being inobdure.
 
 I have not decided on a license yet.
 
