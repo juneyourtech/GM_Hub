@@ -2,8 +2,8 @@
 // @name        Hub Rez
 // @namespace   hub_rez
 // @description Changes GitHub appearance for mobile. All trademarks are the property of their respective owners.
-// @include     https://github.com/*
-// @version     1
+// @include     *.github.com/*
+// @version     1.0.0.1
 // @grant       GM_addStyle
 // ==/UserScript==
 
