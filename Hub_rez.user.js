@@ -17,6 +17,7 @@ GM_addStyle("DIV.container {width:auto; max-width:980px;}") //
 
 GM_addStyle("UL.user-nav {margin-right:0px;}") //
 
-GM_addStyle("DIV.file-wrap > TABLE.file TD.message .css-truncate {max-width:unset;}") //
+GM_addStyle("DIV.file-wrap > TABLE.files TD.message .css-truncate {white-space:normal;}") //
+//Older: {max-width:unset;}")
 
-//GM_addStyle("@media screen {A:visited {color:MediumPurple; text-decoration:underline; background:linear-gradient(to right, yellow, transparent 50%, transparent 100%) !important;} }") //visited color WORKS, background-color doesn't. SlateBlue is ok.
+GM_addStyle("DIV.file-actions {padding-left:84px;}") //
