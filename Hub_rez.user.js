@@ -3,14 +3,16 @@
 // @namespace   hub_rez
 // @description Changes GitHub appearance for mobile. All trademarks are the property of their respective owners.
 // @include     *.github.com/*
-// @version     1.0.0.1
+// @version     1.0.0.2
 // @grant       GM_addStyle
 // ==/UserScript==
 
 /*
 @updateURL https://github.com/juneyourtech/GM_GitHub/raw/master/wikipedia_vector.user.js */
 
-GM_addStyle("HTML > BODY {min-width:320px;}") //
+GM_addStyle("HTML > BODY {min-width:240px;}") //
+
+GM_addStyle("@media only screen and (max-width:302px) {DIV.header .header-search {width:auto; min-width:240px; max-width:300px; margin-right:0px;} }")
 
 GM_addStyle("DIV.container {width:auto; max-width:980px;}") //
 
