@@ -2,14 +2,12 @@
 // @name        Hub Rez
 // @namespace   hub_rez
 // @description Changes GitHub appearance for mobile. All trademarks are the property of their respective owners.
+// @updateURL https://github.com/juneyourtech/GM_Hub/raw/master/Hub_rez.user.js
+// @version     1.0.0.3
 // @include     https://github.com/*
 // @include     https://*.github.com/*
-// @version     1.0.0.3
 // @grant       GM_addStyle
 // ==/UserScript==
-
-/*
-@updateURL https://github.com/juneyourtech/GM_GitHub/raw/master/wikipedia_vector.user.js */
 
 GM_addStyle("HTML > BODY {min-width:240px;}") //
 
