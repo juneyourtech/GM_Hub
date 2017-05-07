@@ -3,7 +3,7 @@
 // @namespace   hub_rez
 // @description Changes GitHub appearance for mobile. All trademarks are the property of their respective owners.
 // @updateURL https://github.com/juneyourtech/GM_Hub/raw/master/Hub_rez.user.js
-// @version     1.0.0.5
+// @version     1.0.1
 // @include     https://github.com/*
 // @include     https://*.github.com/*
 // @grant       GM_addStyle
@@ -22,3 +22,14 @@ GM_addStyle("DIV.file-wrap > TABLE.files TD.message .css-truncate, DIV.file-wrap
 //Older: {max-width:unset;}")
 
 GM_addStyle("DIV.file-actions {padding-left:84px;}") //
+
+//WIKI and SIDEBAR
+GM_addStyle("DIV.wiki-body .markdown-body {padding:0px 10px; margin:0px;}")
+
+GM_addStyle("@media only screen and (max-width:825px) { DIV.has-rightbar .wiki-body, DIV.has-rightbar .wiki-footer {margin-right:unset;}   DIV.wiki-rightbar {border:solid 1px Silver; margin-left:7px;} }")
+
+GM_addStyle("@media only screen and (max-width:460px) { DIV.wiki-body .markdown-body {padding:0px 5px;}  DIV.wiki-rightbar {width:180px;} }")
+
+GM_addStyle("@media only screen and (max-width:360px) { DIV.wiki-rightbar {width:160px;} }")
+
+GM_addStyle("@media only screen and (max-width:320px) { DIV.wiki-body .markdown-body {padding:0px 2px;} }")
