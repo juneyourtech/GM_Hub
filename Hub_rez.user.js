@@ -13,11 +13,11 @@ GM_addStyle("HTML > BODY {min-width:240px;}"); //
 
 GM_addStyle("@media only screen and (max-width:302px) { DIV.header .header-search {width:auto; min-width:240px; max-width:300px; margin-right:0px;} }");
 
-GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child {display:inline;}");
-GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > DIV {display:inline; float:left;}");
-GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > UL {display:inline-flex;}");
+GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child {display:inline;}"); //28.03.2018
+GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > DIV {display:inline; float:left;}"); //28.03.2018
+GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > UL {display:inline-flex;}"); //28.03.2018
 
-GM_addStyle("DIV.HeaderMenu > DIV.d-flex:last-child {min-width:116px;}");
+GM_addStyle("DIV.HeaderMenu > DIV.d-flex:last-child {min-width:116px;}"); //28.03.2018
 
 GM_addStyle("DIV.container, NAV.container {width:auto; max-width:980px;}"); //
 //28.03.2018: +second selector
