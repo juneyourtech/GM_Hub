@@ -3,7 +3,7 @@
 // @namespace   hub_rez
 // @description Changes GitHub appearance for mobile. All trademarks are the property of their respective owners.
 // @updateURL https://github.com/juneyourtech/GM_Hub/raw/master/Hub_rez.user.js
-// @version     1.0.1.2
+// @version     1.0.1.3
 // @include     https://github.com/*
 // @include     https://*.github.com/*
 // @grant       GM_addStyle
@@ -13,9 +13,9 @@ GM_addStyle("HTML > BODY {min-width:240px;}"); //
 
 GM_addStyle("@media only screen and (max-width:302px) { DIV.header .header-search {width:auto; min-width:240px; max-width:300px; margin-right:0px;} }");
 
-GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child {display:inline;}"); //28.03.2018
+GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child {display:inline !important;}"); //28.03.2018
 GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > DIV {display:inline; float:left;}"); //28.03.2018
-GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > UL {display:inline-flex;}"); //28.03.2018
+GM_addStyle("DIV.HeaderMenu > DIV.d-flex:first-child > UL {display:inline-flex !important;}"); //28.03.2018
 
 GM_addStyle("DIV.HeaderMenu > DIV.d-flex:last-child {min-width:116px;}"); //28.03.2018
 
